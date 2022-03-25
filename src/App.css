@@ -1,0 +1,222 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.App {
+  width:100%;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image:url('./assets/twerking-pokemon.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+h1, h2, h3, p{
+  color:#ffffff;
+  display:inline-block;
+  text-transform: capitalize;
+
+}
+.weather-card{
+  position: relative;
+  z-index:100;
+  width: 550px;
+  height: 350px;
+  border-radius: 30px;
+  background-image: url('./assets/twerking-pokemon.gif');
+  box-shadow: 0px 10px 30px black 0 0 30px rgb(255, 254, 254);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  overflow:hidden;
+}
+
+
+.card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-card{
+  width: 60%;
+  height: 100%;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-card-location{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-card-location span{
+  width: auto;
+  height: 100%;
+  font-size:30px;
+  padding-right: 15px;
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.main-card-location p{
+  width: auto;
+  height: auto;
+  font-size:30px;
+  font-weight: 100;
+  justify-content: flex-end;
+}
+
+.main-card-info{
+  width: 100%;
+  height: auto;
+}
+
+.card-main-footer{
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.main-temperature-card{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: start;
+  line-height: .8;
+}
+.card-units-temperature{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.main-card-date{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card-hour{
+  width: 100%;
+  height: 70%;
+  text-align:start;
+  font-size: 32px;
+  font-weight: 100;
+}
+.card-date{
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  text-align: end;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 0.8;
+}
+
+.card-aside{
+  width: 35%;
+  height: 100%;
+  padding-left: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-aside-weather{
+  width: 200%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-aside-description{
+  font-size: 20px;
+  font-weight: 500;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.card-aside-weather-icon{
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+
+.card-aside-weather-icon>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-aside-info{
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.card-aside-info>div{
+  padding: 2px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-aside-info>div>span{
+  /* padding: 2px 15px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-aside-info>div>span>i {
+  width: 50%;
+  font-size: 18px;
+  margin-right: 10px;
+  text-align: end;
+}
+.card-aside-info>div>p{
+  width: 50%;
+  font-size: 15px;
+  font-weight: 1000;
+}
+.card-aside-buttons{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
