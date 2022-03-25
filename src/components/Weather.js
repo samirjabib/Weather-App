@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import useDateTime from './hooks/useDateTime';
 import useDateWeather from './hooks/useDateWeather';
 

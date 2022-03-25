@@ -72,6 +72,7 @@ h1, h2, h3, p{
   display:flex;
   justify-content:flex-end;
   align-items: center;
+  color:#ffffff
 }
 
 .main-card-location p{
@@ -199,6 +200,7 @@ h1, h2, h3, p{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color:#ffffff
 }
 
 .card-aside-info>div>span>i {
