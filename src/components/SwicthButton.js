@@ -1,3 +1,6 @@
+
+// funciones para convertir las unidades.
+
 export const celsiusToFahrenheit = (celsius) => {
     let fahrenheit = celsius * (9 / 5) + 32;
     return Math.round(Number(fahrenheit));

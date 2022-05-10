@@ -23,10 +23,7 @@ const Weather = () => {
         seconds,
         } = useDateTime()
 
-
         // Logic for button interactive
-
-
         const [isCelcius, setIsCelcius] = useState();
         const [temp, setTemp] = useState();
 
@@ -95,7 +92,7 @@ const Weather = () => {
                             </div>
                         </section>
                         <section className='card-aside-buttons'>
-                    <button className='button-text' onClick={convertUnit}>Convert Unit</button>
+                    <button className='button-text' onClick={convertUnit}>Change unit</button>
                         </section>
                     </aside>
                 </section>
